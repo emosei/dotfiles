@@ -1,6 +1,10 @@
 #!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
+mkdir -p ~/.vim/bundle
+sudo yum -y install git
+git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+
 # スクリプトがあるディレクトリの絶対パス
 dir=$(cd $(dirname $0);pwd)
 
