@@ -53,7 +53,7 @@ endfunction
 " NeoBundle よるプラグインのロードと各プラグインの初期化
 function! s:LoadBundles()
   " 読み込むプラグインの指定
-  "NeoBundle 'tpope/vim-surround'
+  NeoBundle 'tpope/vim-surround'
   "-------------------------
   " 各種プラグライン
   "-------------------------
